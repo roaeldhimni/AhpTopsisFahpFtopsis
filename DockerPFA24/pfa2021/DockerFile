@@ -1,0 +1,11 @@
+FROM openjdk:17-jdk-alpine
+WORKDIR /pfa2021
+COPY target/pfa2021-0.0.1-SNAPSHOT.jar .
+EXPOSE 8000
+ENTRYPOINT ["java", "-jar","pfa2021-0.0.1-SNAPSHOT.jar"]FROM openjdk:17-jdk-alpine
+WORKDIR /pfa2021
+COPY target/pfa2021-0.0.1-SNAPSHOT.jar .
+EXPOSE 8000
+ENTRYPOINT ["java", "-jar","pfa2021-0.0.1-SNAPSHOT.jar"]
+
+
